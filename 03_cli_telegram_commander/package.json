@@ -1,0 +1,15 @@
+{
+  "name": "03_cli_telegram_commander",
+  "version": "1.0.0",
+  "description": "Simple telegram bot that can act as notes or notepad when you need to save something urgently from the console.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Oleh Makarov",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "node-telegram-bot-api": "^0.63.0"
+  }
+}
