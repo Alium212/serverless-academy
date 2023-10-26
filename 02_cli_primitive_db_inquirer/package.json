@@ -1,0 +1,15 @@
+{
+  "name": "02_cli_primitive_db_inquirer",
+  "version": "1.0.0",
+  "description": "An application, once launched, should turn a boring console into an interactive tool that can be used to create multiple users, put their information, and then search for users in an already populated database.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Oleh Makarov",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.11"
+  },
+  "type": "module"
+}

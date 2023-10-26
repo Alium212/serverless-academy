@@ -1,0 +1,30 @@
+[
+  {
+    "user": "Vovik",
+    "gender": "male"
+  },
+  {
+    "user": "Olga",
+    "gender": "female"
+  },
+  {
+    "user": "Alex",
+    "gender": "male",
+    "age": "21"
+  },
+  {
+    "user": "Maria",
+    "gender": "female",
+    "age": "35"
+  },
+  {
+    "user": "Peters",
+    "gender": "male",
+    "age": "34"
+  },
+  {
+    "user": "Nomra",
+    "gender": "female",
+    "age": "19"
+  }
+]
