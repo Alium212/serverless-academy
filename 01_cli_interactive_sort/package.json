@@ -1,0 +1,11 @@
+{
+  "name": "01_cli_interactive_sort",
+  "version": "1.0.0",
+  "description": "A small CLI application without any external dependencies that expects the user to enter a few words or numbers separated by a space. Next, the program ask how to sort the user's input.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Oleh Makarov",
+  "license": "MIT"
+}
