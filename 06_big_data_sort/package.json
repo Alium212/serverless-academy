@@ -1,0 +1,11 @@
+{
+  "name": "06_big_data_sort",
+  "version": "1.0.0",
+  "description": "An application that sorts large data into different files in a reasonable amount of time.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Oleh Makarov",
+  "license": "MIT"
+}
