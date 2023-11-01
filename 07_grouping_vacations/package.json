@@ -1,0 +1,11 @@
+{
+  "name": "07_grouping_vacations",
+  "version": "1.0.0",
+  "description": "An application that take data from JSON file with a list of developers and group vacations.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Oleh Makarov",
+  "license": "MIT"
+}
