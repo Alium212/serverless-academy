@@ -24,13 +24,16 @@ const endpoints = [
     'https://jsonbase.com/sls-team/json-64',
 ];
 
+let trueCount = 0;
+let falseCount = 0;
+
 const findIsDoneValue = (obj) => {
     if (!obj || typeof obj !== 'object') {
         return undefined;
     }
 
     const stack = [obj];
-    
+
     while (stack.length > 0) {
         const currentObj = stack.pop();
         if ('isDone' in currentObj) {
@@ -57,6 +60,13 @@ const handleResponse = (response, endpoint) => {
             ? `[Success] ${endpoint}: isDone - ${isDoneValue}`
             : `[Fail] ${endpoint}: The isDone key is missing in the response.`;
         console.log(message);
+        if (isDoneValue !== undefined) {
+            if (isDoneValue === true) {
+                trueCount++;
+            } else {
+                falseCount++;
+            }
+        }
     }
 };
 
@@ -85,6 +95,9 @@ const processEndpoints = async () => {
     for (const endpoint of endpoints) {
         await fetchData(endpoint);
     }
+
+    console.log(`Found True values: ${trueCount}`);
+    console.log(`Found False values: ${falseCount}`);
 };
 
 processEndpoints();
