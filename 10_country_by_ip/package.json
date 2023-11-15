@@ -1,0 +1,16 @@
+{
+  "name": "10_country_by_ip",
+  "version": "1.0.0",
+  "description": "An application to find user country by ip.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Oleh Makarov",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
